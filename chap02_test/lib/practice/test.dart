@@ -10,7 +10,7 @@ class Practice extends StatelessWidget {
         backgroundColor: Colors.white,
         title:
           Text(
-            "실습 앱",
+            "지구 방위대",
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.bold,
@@ -26,11 +26,12 @@ class Practice extends StatelessWidget {
         children: [
           Container(
             height: 150,
-            margin: EdgeInsets.only(top: 15),
+            margin: EdgeInsets.only(top: 15, left: 15),
             child: Row(
               children: [
                 Image.asset("assets/img.png", width: 150,),
                 Container(
+                  margin: EdgeInsets.only(left: 15),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -52,12 +53,14 @@ class Practice extends StatelessWidget {
             ),
           ),
           Container(
+            height: 150,
+            margin: EdgeInsets.only(top: 15, left: 15),
             child: Row(
               children: [
                 Image.asset("assets/img_1.png",width: 150,),
                 Container(
                   height: 150,
-                  margin: EdgeInsets.only(top: 15),
+                  margin: EdgeInsets.only(left: 15),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -69,6 +72,64 @@ class Practice extends StatelessWidget {
                           children: [
                             Icon(Icons.favorite),
                             Text("lv: 4"),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            height: 150,
+            margin: EdgeInsets.only(top: 15, left: 15),
+            child: Row(
+              children: [
+                Image.asset("assets/img_2.png",width: 150,),
+                Container(
+                  height: 150,
+                  margin: EdgeInsets.only(left: 15),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("아이젠",),
+                      Text("전사",),
+                      Text("드워프",),
+                      Container(
+                        child: Row(
+                          children: [
+                            Icon(Icons.android),
+                            Text("lv: 6"),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            height: 150,
+            margin: EdgeInsets.only(top: 15, left: 15),
+            child: Row(
+              children: [
+                Image.asset("assets/img_3.png",width: 150,),
+                Container(
+                  height: 150,
+                  margin: EdgeInsets.only(left: 15),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("프리렌",),
+                      Text("마법사",),
+                      Text("엘프",),
+                      Container(
+                        child: Row(
+                          children: [
+                            Icon(Icons.settings_accessibility),
+                            Text("lv: ??"),
                           ],
                         ),
                       )
