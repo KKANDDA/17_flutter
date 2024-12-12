@@ -39,15 +39,15 @@ class _FoodListWidgetState extends State<FoodListWidget> {
             ],
           ),
           trailing: ElevatedButton(
-              onPressed: (){
-                // var countingNum = 0;
-                setState(() {
-                  foods[i]['count']++;
-                  // countingNums[i]++;
-                  // print("얍!!"+countingNum.toString());
-                });
-              },
-              child: Text("레베루 업!!"),
+            onPressed: (){
+              // var countingNum = 0;
+              setState(() {
+                foods[i]['count']++;
+                // countingNums[i]++;
+                // print("얍!!"+countingNum.toString());
+              });
+            },
+            child: Text("레베루 업!!"),
           ),
         );
       },

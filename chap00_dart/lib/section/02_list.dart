@@ -23,7 +23,8 @@ void collectionTest(){
   // 삭제
   foods.remove("크림 새우");
   print(foods);
-  
+
+  // 행 삭제
   foods.removeAt(0);
   print(foods);
 
