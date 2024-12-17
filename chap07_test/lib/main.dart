@@ -43,10 +43,11 @@ class MyPage extends StatefulWidget {
 class _MyPageState extends State<MyPage> {
 
   List<Map<String, String>> movies = [
-    {"movieTitle": "title", "movieDirector": "name", "movieDescription": "description"},
+    //{"movieTitle": "title", "movieDirector": "name", "movieDescription": "description"},
   ];
-  List<Map<String,String>> _searchResults = [];
-
+  List<Map<String,String>> _searchResults = [
+    //{"movieTitle": "title", "movieDirector": "name", "movieDescription": "description"},
+  ];
 
   int _selectedIndex = 0;
 
